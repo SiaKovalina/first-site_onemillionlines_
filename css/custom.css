@@ -24,8 +24,23 @@ footer {
 .jumbotron {
 	text-align: center;
 	background-image: url('../images/hero_image.jpg');
-	
 	color: white;
+}
+
+.modalcontent iframe {
+	margin-top: 12px;
+	margin-bottom: 10px;
+}
+
+.modal-content button.close {
+	position: absolute;
+    top: 0px;
+    right: 5px;
+    font-size: 28px;
+    width: 30px;
+    background-color: white;
+    opacity: 1;
+    border-radius: 12px;
 }
 
 ul.nav {
@@ -143,3 +158,4 @@ ul.nav {
 		font-size: 18px;
 	}
 }
+
