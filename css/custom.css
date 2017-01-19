@@ -27,8 +27,17 @@ footer {
 	color: white;
 }
 
-.modalcontent iframe {
-	margin-top: 12px;
+/* Positioning of the absolute positioned element*/
+.modal-dialog {
+	position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    top: 50%;
+    margin-top: -173px;
+}
+
+.modal-content iframe {
+	margin-top: 15px;
 	margin-bottom: 10px;
 }
 
